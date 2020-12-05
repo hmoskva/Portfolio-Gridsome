@@ -13,4 +13,11 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+@media (max-width: 480px) {
+  header {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+</style>

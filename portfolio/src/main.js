@@ -5,6 +5,11 @@ import DefaultLayout from "~/layouts/Default.vue";
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
+
+  head.meta.push({
+    name: "viewport",
+    content: "initial-scale=1.0, width=device-width",
+  });
   head.link.push({
     rel: "preconnect",
     href: "https://fonts.gstatic.com",
@@ -14,5 +19,6 @@ export default function(Vue, { router, head, isClient }) {
     href:
       "https://fonts.googleapis.com/css2?family=Anton&family=Varela&family=Merriweather&&display=swap",
   });
+  head.bodyAttrs = { class: "custom-body-class" };
   Vue.component("Layout", DefaultLayout);
 }

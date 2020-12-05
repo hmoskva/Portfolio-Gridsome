@@ -2,7 +2,7 @@
   <Layout>
     <div class="hero flex h-screen items-center">
       <TextSection
-        wrapperClass="section-container flex-1"
+        wrapperClass="section-container"
         title="Nice to meet you, I am"
         mainTitle="HABIB SOGBESAN"
         info="Since beginning my journey as a software engineer nearly 4 years ago,
@@ -66,5 +66,10 @@ export default {
   position: relative;
   top: -35px;
   /* background-size: contain; */
+}
+@media (max-width: 480px) {
+  .hero {
+    top: 0;
+  }
 }
 </style>
