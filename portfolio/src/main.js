@@ -7,8 +7,9 @@ export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
 
   head.meta.push({
+    key: "viewport",
     name: "viewport",
-    content: "initial-scale=1.0, width=device-width",
+    content: "initial-scale=1.0, maximum-scale=1.0, width=device-width",
   });
   head.link.push({
     rel: "preconnect",
@@ -19,6 +20,5 @@ export default function(Vue, { router, head, isClient }) {
     href:
       "https://fonts.googleapis.com/css2?family=Anton&family=Varela&family=Merriweather&&display=swap",
   });
-  head.bodyAttrs = { class: "custom-body-class" };
   Vue.component("Layout", DefaultLayout);
 }

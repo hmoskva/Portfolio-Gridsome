@@ -46,4 +46,9 @@ export default {
   font-family: "Anton", sans-serif;
   line-height: 1;
 }
+@media (max-width: 480px) {
+  .section h1 {
+    font-size: 75px;
+  }
+}
 </style>

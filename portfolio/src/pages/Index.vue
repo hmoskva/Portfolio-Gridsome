@@ -1,16 +1,14 @@
 <template>
   <Layout>
     <div class="hero flex h-screen items-center">
+      <!-- <div class="anto">
+        HABIB SOGBESAN
+      </div> -->
       <TextSection
-        wrapperClass="section-container"
+        wrapperClass="section-container px-8 md:px-16"
         title="Nice to meet you, I am"
         mainTitle="HABIB SOGBESAN"
-        info="Since beginning my journey as a software engineer nearly 4 years ago,
-          I've done both physical and remote work for agencies, and collaborated
-          with talented people to create seamless software products for both
-          business and consumer use. I'm naturally curious, passionale about
-          problem solving and perpetually working on improving my skills one
-          line of code at a time."
+        info=""
         :btnProps="{ text: 'Explore Me', outline: true, icon: ArrowDown }"
       >
         <div class="socials my-8" slot="socials">
@@ -53,23 +51,17 @@ export default {
 </script>
 
 <style>
-.home-links a {
-  margin-right: 1rem;
+.anto {
+  font-size: 144px;
+  font-family: "Anton", sans-serif;
+  line-height: 1;
 }
 .section-container {
-  padding: 0 100px;
+  /* padding: 0 100px; */
 }
 .hero {
   background-image: url("../assets/images/tree.png");
   background-position: top right;
   background-repeat: no-repeat;
-  position: relative;
-  top: -35px;
-  /* background-size: contain; */
-}
-@media (max-width: 480px) {
-  .hero {
-    top: 0;
-  }
 }
 </style>

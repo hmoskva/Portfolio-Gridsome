@@ -1,5 +1,5 @@
 <template>
-  <header class="container mx-auto flex flex-row-reverse pt-6">
+  <header class="mx-auto flex flex-row-reverse pt-6 px-8 md:px-16">
     <AppButton class="z-10" text="Reach Out" btnClass="btn-sm" />
   </header>
 </template>
@@ -13,11 +13,4 @@ export default {
 };
 </script>
 
-<style scoped>
-@media (max-width: 480px) {
-  header {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-}
-</style>
+<style scoped></style>
