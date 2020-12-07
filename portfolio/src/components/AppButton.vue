@@ -37,11 +37,17 @@ export default {
   border: 1px solid #000000;
   font-family: "Merriweather", serif;
   text-transform: uppercase;
+  transition: all 0.3s;
 }
 .app-button.btn-sm {
   padding: 18px 26px;
 }
 .icon {
   margin-right: 12.5px;
+}
+.app-button.outline:hover {
+  color: #fff;
+  background: #c4c4c4;
+  border: 1px solid #c4c4c4;
 }
 </style>

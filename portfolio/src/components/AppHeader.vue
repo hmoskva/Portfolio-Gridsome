@@ -1,6 +1,6 @@
 <template>
   <header class="mx-auto flex flex-row-reverse pt-6 px-8 md:px-16">
-    <AppButton class="z-10" text="Reach Out" btnClass="btn-sm" />
+    <AppButton class="z-10" text="Reach Out" btnClass="btn-sm" outline />
   </header>
 </template>
 

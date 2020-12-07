@@ -14,7 +14,7 @@
         <div class="socials my-8" slot="socials">
           <AppLabel text="Software Developer" />
           <div class="flex mt-6">
-            <Icon :icon="GithubIcon" class="mr-1" />
+            <Icon :icon="GithubIcon" class="mr-2" />
             <Icon :icon="LinkedIn" />
           </div>
         </div>

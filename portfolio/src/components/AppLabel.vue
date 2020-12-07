@@ -21,7 +21,8 @@ export default {
 .label {
   padding: 13px 25px;
   text-align: center;
-  background: #c4c4c4;
+  color: #fff;
+  background: #000;
   text-transform: uppercase;
   display: inline-block;
   font-family: "Varela", sans-serif;
