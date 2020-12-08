@@ -9,6 +9,7 @@
   "dependencies": {
     "autoprefixer": "^9.8.6",
     "gridsome": "^0.7.0",
+    "gridsome-source-firestore": "^1.2.0",
     "postcss": "^7.0.35",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1"
   },

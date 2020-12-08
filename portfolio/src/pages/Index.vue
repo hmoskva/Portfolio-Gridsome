@@ -1,9 +1,6 @@
 <template>
   <Layout>
     <div class="hero flex h-screen mt-8 md:mt-16 md:pt-8">
-      <!-- <div class="anto">
-        HABIB SOGBESAN
-      </div> -->
       <TextSection
         wrapperClass="section-container px-8 md:px-16"
         title="Nice to meet you, I am"
@@ -23,6 +20,23 @@
   </Layout>
 </template>
 
+<page-query>
+query {
+  projects: allFireProjects {
+    edges {
+      node {
+        id
+        description
+        name
+        tags
+        thumbnail
+        url
+      }
+    }
+  }
+}
+</page-query>
+
 <script>
 import TextSection from "../components/TextSection";
 import AppLabel from "~/components/AppLabel";
@@ -33,7 +47,7 @@ import ArrowDown from "~/components/icons/ArrowDown";
 
 export default {
   metaInfo: {
-    title: "Hello, world!",
+    title: "Habib Sogbesan - Software Engineer",
   },
   data() {
     return {
