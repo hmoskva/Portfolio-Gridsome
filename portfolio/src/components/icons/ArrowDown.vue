@@ -19,6 +19,6 @@ export default {};
 
 <style scoped>
 .app-button.outline:hover svg path {
-  fill: #fff !important;
+  /* fill: #fff !important; */
 }
 </style>

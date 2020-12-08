@@ -46,7 +46,6 @@ export default {
   margin-right: 12.5px;
 }
 .app-button.outline:hover {
-  color: #fff;
   background: #c4c4c4;
   border: 1px solid #c4c4c4;
 }

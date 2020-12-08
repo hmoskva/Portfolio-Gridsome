@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="hero flex h-screen items-center">
+    <div class="hero flex h-screen mt-8 md:mt-16 md:pt-8">
       <!-- <div class="anto">
         HABIB SOGBESAN
       </div> -->
@@ -8,7 +8,7 @@
         wrapperClass="section-container px-8 md:px-16"
         title="Nice to meet you, I am"
         mainTitle="HABIB SOGBESAN"
-        info=""
+        info="Since beginning my journey as a software engineer nearly 4 years ago, I've done both physical and remote work for agencies, and collaborated with talented people to create seamless software products. I'm naturally curious, passionale about problem solving and perpetually working on improving my skills one line of code at a time."
         :btnProps="{ text: 'Explore Me', outline: true, icon: ArrowDown }"
       >
         <div class="socials my-8" slot="socials">
