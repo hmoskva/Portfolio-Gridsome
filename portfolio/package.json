@@ -4,7 +4,8 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "deploy": "./scripts/deploy.sh"
   },
   "dependencies": {
     "autoprefixer": "^9.8.6",
